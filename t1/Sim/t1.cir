@@ -3,6 +3,8 @@
 .options savecurrents
 
 
+*circuit description
+
 Va 6 3 5.23061068922
 V0 3 9 0
 R1 6 1 1.01458812332k
@@ -15,6 +17,9 @@ R7 8 5 1.00498418134k
 Id 5 4 1.01940833644m
 Gb 7 4 (1,2) 7.25561262206m
 Hc 2 5 V0 8.24424618872k
+
+
+*circuit analysis control
 
 .control
 op
