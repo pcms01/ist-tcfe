@@ -24,15 +24,23 @@ R5 2 4 3.06211563876k
 R6 0 8 2.03687088929k
 R7 8 5 1.00498418134k
 
-
-
-
 *circuit analysis control
 
-
 .control
+
 op
 
+echo "Operating point analysis"
+
+echo  "op_TAB"
 print all
+echo  "op_END"
+
+
+print all
+
+quit
+
 .endc
+.end
 
